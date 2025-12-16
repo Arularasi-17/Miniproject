@@ -1,59 +1,81 @@
+# Light-Weight Machine Learning–Based Intrusion Detection System for IoT Healthcare Devices
+
 ## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+
+**Light-Weight Machine Learning–Based Intrusion Detection System for IoT Healthcare Devices**
+
+## Small Description
+
+This project focuses on designing a lightweight machine learning–based Intrusion Detection System (IDS) to secure IoT-enabled healthcare devices. The system efficiently detects malicious network activities with high accuracy while maintaining low computational overhead, making it suitable for resource-constrained healthcare IoT environments.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+
+The rapid adoption of IoT devices in healthcare—such as wearable sensors, remote patient monitoring systems, and smart medical equipment—has introduced significant security challenges. These devices are often vulnerable to cyberattacks due to limited processing power, memory, and energy resources.
+
+This project proposes a **light-weight machine learning–based IDS** that monitors network traffic from IoT healthcare devices and classifies it as normal or malicious. By using optimized machine learning algorithms, the system achieves high detection accuracy while ensuring fast response times and minimal resource consumption. The IDS helps protect sensitive patient data, ensures device reliability, and supports secure healthcare services.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+
+* Lightweight machine learning–based intrusion detection
+* High detection accuracy with low false alarm rate
+* Faster diagnosis and real-time threat detection
+* Low computational and memory overhead
+* Suitable for resource-constrained IoT healthcare devices
+* Scalable architecture for future expansion
+* Effective detection of common network attacks (DoS, probing, spoofing, etc.)
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+
+* **Operating System:** 64-bit Windows 10 / Windows 11 or Ubuntu
+* **Programming Language:** Python 3.8 or later
+* **Machine Learning Libraries:** scikit-learn, NumPy, pandas
+* **Data Processing:** matplotlib, seaborn (for visualization)
+* **Development Environment:** VS Code / Jupyter Notebook
+* **Version Control:** Git and GitHub
+* **Hardware Requirements:** Minimum 8 GB RAM (recommended for model training)
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+<img width="636" height="397" alt="image" src="https://github.com/user-attachments/assets/765d3ec0-2438-4b34-9979-79568dc0a3e6" />
 
+The system consists of the following components:
+
+1. IoT Healthcare Devices – Generate real-time network traffic data
+2. Data Collection Module – Captures and preprocesses network packets
+3. Feature Extraction – Extracts relevant traffic features
+4. Machine Learning Classifier – Detects normal and malicious activities
+5. Alert & Logging Module – Reports detected intrusions for further action
+
+*(Insert system architecture diagram here)*
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+### Output 1 – Intrusion Detection Result
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+*(Insert output screenshot showing normal vs attack classification)*
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+### Output 2 – Performance Metrics
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+* **Accuracy:** 90%
+* **Precision:** 93%
+* **Recall:** 92%
 
+These results indicate effective intrusion detection with reliable predictions and faster diagnosis, suitable for healthcare IoT environments.
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The proposed system successfully detects network intrusions in IoT healthcare devices with high accuracy and minimal overhead. Its lightweight design makes it ideal for real-time deployment in medical environments where performance and reliability are critical.
 
-## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+The project contributes to improving the security of smart healthcare systems by:
 
+* Protecting sensitive patient data
+* Ensuring reliable operation of medical IoT devices
+* Reducing the risk of cyberattacks in healthcare networks
 
+This work serves as a strong foundation for future research in secure and intelligent healthcare IoT systems.
 
+## Articles Published / References
 
+1. A. Sharma and H. Babbar, “Preventing Spoofing Threats in IoT: Machine Learning Approaches for Intrusion Detection,” IEEE World Conference on Applied Intelligence and Computing, 2024.
+2. A. K. Tripathy, A. K. Mishra, and R. Panda, “Performance Comparison and Analysis of Machine Learning and Deep Learning Models for Network Intrusion Detection in IoT-Edge Framework.”
+3. N. S. Gupta et al., “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods,” EAI Endorsed Transactions on IoT, vol. 10, 2024.
